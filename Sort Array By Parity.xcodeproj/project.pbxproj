@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		21F000F4226140A600FE408C /* Sort Array By Parity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sort Array By Parity"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F000F7226140A600FE408C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21F000FE2261414300FE408C /* prompt.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = prompt.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				21F000F7226140A600FE408C /* main.cpp */,
+				21F000FE2261414300FE408C /* prompt.rtf */,
 			);
 			path = "Sort Array By Parity";
 			sourceTree = "<group>";

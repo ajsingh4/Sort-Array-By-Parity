@@ -7,9 +7,32 @@
 //
 
 #include <iostream>
+#include <vector>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+class Solution {
+public:
+    vector<int> sortArrayByParity(vector<int>& A) {
+        vector<int> C;
+        for(int i=0; i<A.size(); i++){
+            if(A[i] % 2 == 0){
+                C.push_back(A[i]);
+            }
+        }
+        for(int j=0; j<A.size(); j++){
+            if(A[j] % 2 != 0){
+                C.push_back(A[j]);
+            }
+        }
+        return C;
+    }
+};
+
+int main() {
+    vector<int> input = {3,1,2,4};
+    vector<int> answer = Solution().sortArrayByParity(input);
+    for(int m=0; m<answer.size(); m++){
+        cout << answer[m] << " ";
+    }
 }
